@@ -2,10 +2,10 @@
   background-color:#23252c;
   position: absolute;
   width: 550px;
-  height: 868px;
+  height: 850px;
   left: 65px;
   top: 53px;
-  align-self: center;
+  margin-left: 350px;
 }
 
 .inner{
@@ -29,6 +29,8 @@
   margin-bottom: 16px;
   margin-left: 90px;
   margin-top: 20px;
+  border-color: aqua;
+  border-style: solid;
 }
 
 .name{
@@ -56,7 +58,17 @@
   padding-top: 5px;
   padding-bottom: 5px;
   border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition:all 0.3s ease-in-out;
+}
+.btn:active{
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
 
+.btn:hover{
+  background-color: aqua;
 }
 
 .btn-2{
@@ -67,6 +79,16 @@
   padding-top: 5px;
   padding-bottom: 5px;
   border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition:all 0.3s ease-in-out;
+}
+.btn-2:active{
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
+.btn-2:hover{
+  background-color: aliceblue;
 }
 
 .abt-info{
@@ -105,10 +127,46 @@
   width: 317px;
   background-color: #50515e;
   align-items: center;
-  margin-top: 22px;
+  margin-top: 17px;
   border-radius: 15px;
   border-style: none;
+  display: flexbox;
+  justify-content: space-between;
+}
 
+.face{
+  width: 30px;
+  height: 30px;
+  margin-top: 5px;
+  margin-left: 25px;
+  border-radius: 10px;
+}
+
+.tweet{
+  width: 30px;
+  height: 30px;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+.git{
+  width: 30px;
+  height: 30px;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.insta{
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+.linked{
+  width: 30px;
+  height: 30px;
+  margin-top: 5px;
+  margin-left: 20px;
 }
 
 

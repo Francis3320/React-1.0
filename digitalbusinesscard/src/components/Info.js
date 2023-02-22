@@ -1,4 +1,6 @@
 import React from "react"
+import EmailButton from "./Email Button";
+import LinkedInButton from "./LinkedIn Button";
 
 function Info(){
     return(
@@ -7,8 +9,8 @@ function Info(){
         <img src={require("../images/me.jpg")} alt="img not found" className="profile-picture" />
         <h4 className="name">Darko Francis</h4>
         <p className="career">Frontend developer</p>
-        <button className="btn">Email</button>
-        <button className="btn-2">LinkedIn</button>
+        <EmailButton/>
+        <LinkedInButton/>
     </div>
        
     )
