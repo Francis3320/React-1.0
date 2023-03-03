@@ -10,11 +10,36 @@ background: #FFFFFF;
 box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
-.logo{
+.logo{ 
   width: 120px;
   margin-left: 30.01px;
 }
 
+.grid{
+/* position: absolute;
+width: 45px;
+height: 20px;
+left: 77px;
+top: 96px;
+margin-left:77px;
+margin-right: 77.09px;
+margin-top: 96px;
+margin-bottom: 525px; */
+max-width: 100%;
+height: auto;
+}
+
+.hero-items{
+position: absolute;
+width: 800px;
+height: auto;
+left: 77px;
+top: 96px;
+margin-left: 200px;
+margin-right: 60px;
+margin-top: 40px;
+
+}
 
 
 
